@@ -1,0 +1,26 @@
+/* This file is kept minimal as per the blueprint guidelines */
+/* Only basic styling to improve the app's aesthetics */
+
+.recipe-card {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.recipe-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.ingredient-list {
+    list-style-type: circle;
+}
+
+.instruction-step {
+    margin-bottom: 0.5rem;
+}
+
+.nutrition-info {
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+}

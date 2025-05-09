@@ -1,0 +1,35 @@
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Pot Base -->
+  <ellipse cx="50" cy="70" rx="35" ry="15" fill="#8B4513" />
+  
+  <!-- Pot Body -->
+  <path d="M15 70 L15 40 C15 25 85 25 85 40 L85 70" fill="#cd7f32" />
+  
+  <!-- Pot Handles -->
+  <path d="M15 50 Q5 50 5 40 Q5 30 15 30" fill="none" stroke="#8B4513" stroke-width="4" />
+  <path d="M85 50 Q95 50 95 40 Q95 30 85 30" fill="none" stroke="#8B4513" stroke-width="4" />
+  
+  <!-- Pot Lid -->
+  <ellipse cx="50" cy="40" rx="35" ry="10" fill="#8B4513" />
+  <ellipse cx="50" cy="40" rx="30" ry="8" fill="#cd7f32" />
+  
+  <!-- Lid Handle -->
+  <circle cx="50" cy="40" r="5" fill="#8B4513" />
+  <circle cx="50" cy="40" r="3" fill="#cd7f32" />
+  
+  <!-- Steam -->
+  <path d="M40 30 Q35 20 40 15 Q45 10 40 5" fill="none" stroke="#CCCCCC" stroke-width="2" />
+  <path d="M50 30 Q55 20 50 15 Q45 10 50 5" fill="none" stroke="#CCCCCC" stroke-width="2" />
+  <path d="M60 30 Q65 20 60 15 Q55 10 60 5" fill="none" stroke="#CCCCCC" stroke-width="2" />
+  
+  <!-- Spices/Ingredients falling -->
+  <circle cx="30" cy="25" r="2" fill="#FFA500" />
+  <circle cx="35" cy="20" r="2" fill="#FF4500" />
+  <circle cx="45" cy="22" r="2" fill="#228B22" />
+  <circle cx="55" cy="25" r="2" fill="#B22222" />
+  <circle cx="65" cy="20" r="2" fill="#FFD700" />
+  <circle cx="70" cy="23" r="2" fill="#8B4513" />
+  
+  <!-- Text: AI Rasoi -->
+  <text x="50" y="95" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="#333333">AI RASOI</text>
+</svg>
