@@ -185,7 +185,7 @@ with st.expander("About AI Rasoi"):
     **AI Rasoi** is your personal Indian recipe assistant that suggests dishes based on 
     ingredients you have. Customize recipes by spice level, regional preferences, and dietary needs.
     
-    Built with ❤️ using Streamlit, Cohere API, and culinary expertise from across India.
+    
     """)
 
 with st.expander("How to Use"):
@@ -199,4 +199,4 @@ with st.expander("How to Use"):
 
 # Footer
 st.markdown("---")
-st.markdown("AI Rasoi: Recipe GPT with a Desi Twist | Made with Streamlit and Cohere")
+

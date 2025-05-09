@@ -6,7 +6,9 @@ import time
 from utils import preprocess_ingredients, get_regional_cuisines
 
 # Initialize Cohere client
-co = cohere.Client(os.getenv("COHERE_API_KEY", "default_key"))
+#co = cohere.Client(os.getenv("COHERE_API_KEY", "default_key"))
+COHERE_API_KEY = "g4uXRzW6L6YJTpsS8q3ViBsoJMEOA4ejH1Hsedae"  # Put your key between the quotes
+co = cohere.Client(COHERE_API_KEY)
 
 def generate_recipe(user_input):
     """
